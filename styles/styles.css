@@ -1,1 +1,78 @@
-    
+*{
+    font-family: "Newsreader", system-ui;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+#logo img{
+    position: fixed;
+    clear: both;
+    border: 1px solid black;
+    left: 45%;
+    width: 10%;
+    padding: 10px;
+}
+
+.nav {
+    position: relative;
+    top: 150px;
+    width: 100%;
+    z-index: 1;
+}
+
+#nav-1 {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#nav-2 {
+    text-align: right;
+    display: inline-block;
+    margin-left: 1110px;
+    margin-right: 5px;
+}
+
+.nav a {
+    position: relative;
+    background: rgb(170, 169, 169);
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+
+
+article.Article{
+    position: relative;
+    top: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+article h1.Article-title {
+    position: relative;
+    color: black;
+    top: -15px;
+}
+
+article h5.Article-subheading {
+    position: relative;
+    top: -35px;
+    color: black;
+}
+
+article div.Article-heading {
+    position: relative;
+    border-bottom: 2px solid black;
+    height: 30px;
+    width: 100%;
+}
+
+article p#One{
+    top: 500px;
+    text-align: left;
+    color: black;
+}

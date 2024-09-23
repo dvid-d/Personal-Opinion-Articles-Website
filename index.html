@@ -1,13 +1,13 @@
 <!DOCTYPE html> <!-- declares document type-->
+
 <html>
     <head>
         <meta charset="UTF-8"> <!-- states character set to be used-->
         <meta name="viewport" content="width=device-width, intial=1"> <!-- declares how to render the size of the page intially-->
         <meta name="description" content="David's Opinion Blog">
-        <meta name="keywords" content=""> <!-- TO ADD KEYWORDS!-->
+        <meta name="keywords" content="blog"> <!-- TO ADD KEYWORDS!-->
         <meta name="author" content="David Dobre">
-
-        <title>Daily Dave's Opinion</title>> <!-- MUST TITLE EACH HTML PAGE -->
+        <title>Daily Dave's Opinion</title> <!-- MUST TITLE EACH HTML PAGE -->
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,51 +15,43 @@
         
         <!-- Style Sheet-->
         <link href="styles/styles.css" rel="stylesheet"> <!-- Refers loading browser to Folder->File -->
-        <!--Font Awesome cdn-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-        <script src="scripts/scripts.js" defer ></script> <!--'defer' delays the js elements so that they are loaded after the html elements-->
     </head>
 
     <body>
-        <!-- MOBILE OVERLAY-->
-        <div id="overlay">
-            <div>
-                <i class="fa fa-times" title="Close navigation button"></i>
-            </div>
-
-            <div class="overlay-text">
-                <a href="index.html">Home</a>
-                <a href="categories.html">Categories</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </div>
         <header>
             <!-- TABLETS/DESKTOP PAGE-->
-            <nav class ="nav full-nav">
-                <div>
-                    <img src="images/daily_daves_opinion_logo.png" alt="Daily Dave's Opinion logo" style="width: 15%">
-                </div>
-                <div>
+            <div id='logo'>
+                <img src="images/daily_daves_opinion_logo.png" alt="Daily Dave's Opinion logo" />
+            </div>
+            <nav class ="nav">
+                <div id="nav-1">
                     <a href="index.html">Home</a>
-                    <a href="categories.html">Categories</a> 
+                    <a href="categories.html">Categories</a>
+                </div>
+                <div id="nav-2">
                     <a href="about.html">About</a>
                     <a href="contact.html">Contact</a>
                 </div>
             </nav>
-
-            <!-- MOBILE PAGE-->
-            <nav>
-                <div>
-                    <img src="images/daily_daves_opinion_logo.png" alt="Daily Dave's Opinion logo" style="width: 10%">
-                </div>
-                <div>
-                    <i class="fa-solid fa-bars" title="Navigation button">
-                </div>
-            </nav>
         </header>
+
+        <main>
+            <article class="Article" id="One" data-time-published="" data-categories="">
+                <div class="Article-heading">
+                    <h1 class="Article-title">Protest at Labour Conference</h1>
+                    <h5 class="Article-subheading">Pro-Palestine protestors attemmpted to cause inconvenience during Rachael Reeves' speech at Labour's first conference in power since 2009</h5>
+                </div>
+                <p id="One">After having won for the first time since 2005, Labour have just started their first conference as the party in power in over 14 years.</p>
+            </article>
+
+            <article class="Article" id="Two" data-time-published="" data-categories=""></article>
+                <div class="Article-heading">
+                    <h1 class="Article-title">Labour Clothing row intensifies as new donations come to light</h1>
+                    <h5 class="Article-subheading">Blababla</h5>
+                </div>
+                <p id="One">After having won for the first time since 2005, Labour have just started their first conference as the party in power in over 14 years.</p>
+            </article>
+
+        </main>
     </body>
 </html>

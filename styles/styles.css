@@ -8,7 +8,7 @@ body {
 }
 
 #logo img{
-    position: fixed;
+    position: relative;
     clear: both;
     border: 1px solid black;
     left: 45%;
@@ -18,7 +18,7 @@ body {
 
 .nav {
     position: relative;
-    top: 150px;
+    top: 50px;
     width: 100%;
     z-index: 1;
 }
@@ -44,12 +44,53 @@ body {
 
 
 
-
-article.Article{
+.Articles {
     position: relative;
-    top: 200px;
-    height: 200px;
+    top: 100px;
+    width: 1000px;
+    height: 2000px;
+    border: 1px dotted red;
+}
+
+a.Article #One {
+    position: absolute;
+    top: 0px;
+    width: 1000px;
+    height: 410px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+a.Article #Two {
+    position: absolute;
+    top: 450px;
+    width: 1000px;
+    height: 400px;
     border: 2px solid black;
+}
+
+.Thumbnail {
+    position: absolute;
+    left: 12%;
+    top: 0px;
+    left: 20%;
+    z-index: -1;
+    height: 50%;
+    height: 350px;
+}
+
+.Heading-image {
+    position: relative;
+    left: 27%;
+    top: 100px;
+    border: 3px solid black;
+}
+
+article div.Article-heading {
+    position: relative;
+    border-top: 2px solid black;
+    height: 30px;
+    width: 100%;
+    top: 350px;
 }
 
 article h1.Article-title {
@@ -60,19 +101,6 @@ article h1.Article-title {
 
 article h5.Article-subheading {
     position: relative;
-    top: -35px;
-    color: black;
-}
-
-article div.Article-heading {
-    position: relative;
-    border-bottom: 2px solid black;
-    height: 30px;
-    width: 100%;
-}
-
-article p#One{
-    top: 500px;
-    text-align: left;
+    top: -30px;
     color: black;
 }

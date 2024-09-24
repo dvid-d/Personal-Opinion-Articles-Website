@@ -1,0 +1,82 @@
+*{
+    font-family: "Newsreader", system-ui;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+#logo img{
+    position: relative;
+    clear: both;
+    border: 1px solid black;
+    left: 45%;
+    width: 10%;
+    padding: 10px;
+}
+
+.nav {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    z-index: 1;
+}
+
+#nav-1 {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#nav-2 {
+    text-align: right;
+    display: inline-block;
+    margin-left: 1110px;
+    margin-right: 5px;
+}
+
+.nav a {
+    position: relative;
+    background: rgb(170, 169, 169);
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+
+
+#Header {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    height: 460px;
+    border: 2px solid red;
+}
+
+#Copyright-acknoledgement {
+    position: relative;
+    font-size: 10px;
+    text-align: left;
+    top: -10px;
+}
+
+#Copyright-acknoledgement-link {
+    position: relative;
+    font-size: 10px;
+    text-align: right;
+    top: -35px;
+}
+
+.Heading-image {
+    position: relative;
+    top: 0px;
+    left: 25%;
+}
+
+
+
+article.Paragraph #One {
+    position: relative;
+    top: 100px;
+    color: green;
+}

@@ -49,7 +49,6 @@ body {
     top: 250px;
     width: 1450px;
     height: 1500px;
-    border: 2px solid rgb(206, 94, 206);
 }
 
 #Header {
@@ -76,7 +75,7 @@ body {
 .Heading-image {
     position: relative;
     top: 0px;
-    left: 25%;
+    left: 28%;
 }
 
 
@@ -92,6 +91,11 @@ article #Article-first-letter {
     font-size: 100px;
     left: 10px;
     color: green;
+}
+
+
+.Article-body .Paragraph {
+    font-size: 22px;
 }
 
 .Paragraph#One {
